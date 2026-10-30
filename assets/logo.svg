@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="navyGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E2C44"/>
+      <stop offset="100%" stop-color="#0E1624"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D179"/>
+      <stop offset="45%" stop-color="#C99A2E"/>
+      <stop offset="100%" stop-color="#8B6210"/>
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2BE65"/>
+      <stop offset="50%" stop-color="#354258"/>
+      <stop offset="100%" stop-color="#C99A2E"/>
+    </linearGradient>
+    <filter id="subtleShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Rounded Shield -->
+  <rect x="6" y="6" width="108" height="108" rx="26" fill="url(#navyGlow)" stroke="url(#goldBorder)" stroke-width="2.5" filter="url(#subtleShadow)"/>
+
+  <!-- Inner Architectural Accent Line -->
+  <rect x="12" y="12" width="96" height="96" rx="20" fill="none" stroke="#23324A" stroke-width="1.2" stroke-dasharray="6 3"/>
+
+  <!-- Geometric Architectural Numeral '4' -->
+  <g filter="url(#subtleShadow)">
+    <!-- Diagonal arm -->
+    <path d="M 68 24 L 32 68 L 32 78 L 76 78" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="10" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Vertical stem -->
+    <path d="M 68 22 L 68 96" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="10" 
+          stroke-linecap="round"/>
+
+    <!-- Horizontal crossbar extension -->
+    <path d="M 74 78 L 88 78" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="10" 
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Elegant Gold Precision Core Nodes -->
+  <circle cx="68" cy="24" r="3" fill="#FFF2BD"/>
+  <circle cx="32" cy="78" r="3" fill="#FFF2BD"/>
+  <circle cx="68" cy="94" r="3" fill="#FFF2BD"/>
+  <circle cx="86" cy="78" r="3" fill="#FFF2BD"/>
+</svg>
+
