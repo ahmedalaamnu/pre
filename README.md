@@ -207,5 +207,5 @@ All data is stored directly in your browser's `localStorage`:
 
 ## ⚖️ License
 
-MIT License. Designed with excellence for 4th-year medical students..
+MIT License. Designed with excellence for 4th-year medical students.
 
